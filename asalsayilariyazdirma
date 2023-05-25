@@ -1,19 +1,1 @@
-sayac <- 0
 
-for(sayi in c(2:1000)){
-
-  for(bolen in c(1:1000)){
-    
-    if(sayi%%bolen == 0)
-      
-      sayac <- sayac + 1
-  }
-    if(sayac==2){
-    
-    print(sayi)
-    sayac <- 0
-   
-  }else{
-  
-   sayac <- 0 
-}}
